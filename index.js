@@ -95,7 +95,7 @@ function getLastReview(reviews) {
     let name = reviews[b].name;
     let rating = reviews[b].rating;
     let feedback = reviews[b].feedback;
-    return `${name} gave this restaurant a ${rating} star review, and there feedback was: ${feedback}!`
+    return `${name} gave this restaurant a ${rating} star review, and there feedback was: ${feedback}!`;
   } 
 console.log(getLastReview(reviews));
 console.log(reviews);
